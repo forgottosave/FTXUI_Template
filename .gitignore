@@ -1,0 +1,10 @@
+# CMake
+build*/
+.cache/
+
+# Visual Studio Code
+.vscode/
+
+# Doxygen
+doc/html/
+doc/latex/
