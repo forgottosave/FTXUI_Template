@@ -44,7 +44,7 @@ cmake --build . --parallel
 
 **Webassembly build:**
 
-The Webassembly build has not been tested yet, but according to FTXUI should work out-of-the-box :)
+The Webassembly build requires [emscripten](https://github.com/emscripten-core/emsdk) to be installed!
 ```bash
 mkdir build_emscripten && cd build_emscripten
 emcmake cmake ..
