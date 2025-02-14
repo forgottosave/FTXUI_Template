@@ -5,8 +5,6 @@
   <a href="#"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white"></img></a>
   <a href="https://opensource.org/license/gpl-3-0"><img src="https://img.shields.io/github/license/forgottosave/FTXUI_Template?color=black"></img></a>
   <a href="#"><img src="https://img.shields.io/github/stars/forgottosave/FTXUI_Template"></img></a>
-  <a href="#"><img src="https://img.shields.io/github/forks/forgottosave/FTXUI_Template"></img></a>
-  <a href="#"><img src="https://img.shields.io/github/repo-size/forgottosave/FTXUI_Template"></img></a>
   <a href="https://github.com/forgottosave/FTXUI_Template/graphs/contributors"><img src="https://img.shields.io/github/contributors/forgottosave/FTXUI_Template?color=blue"></img></a>
   <a href="https://github.com/forgottosave/FTXUI_Template/issues"><img src="https://img.shields.io/github/issues/forgottosave/FTXUI_Template"></img></a>
 <br/>
@@ -21,12 +19,14 @@
 
 ## The Template
 
-This repository is meant to serve as a template for FTXUI-based TUIs. It features:
+This repository was inspired by [ArthurSonzogni](https://github.com/ArthurSonzogni)'s [ftxui-starter](https://github.com/ArthurSonzogni/ftxui-starter) and aims to provide a more complex template repository for FTXUI-based TUIs.
+
+This template includes:
 
 * a complete CMake configuration
-* a clear C++-style class hierarchy
+* a clear class hierarchy
 * doxygen
-* argument parsing 
+* out-of-the-box argument parsing
 
 ## Build instructions
 
@@ -50,5 +50,4 @@ mkdir build_emscripten && cd build_emscripten
 emcmake cmake ..
 make -j
 ./run_webassembly.py
-(visit localhost:8000)
 ```
